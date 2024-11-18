@@ -1,0 +1,21 @@
+a) ich wäre für ein aufsplitten in 2 User Stories.
+
+1. Als Student möchte ich nach Projektausschreibungen suchen können, damit ich Projekte finde, die meinen Skills und Interessen entsprechen. 
+
+Akzeptanztests:
+
+1. Suche nach Projekten durch eingabe von ein oder mehreren Schlüsselwörtern.
+
+2. Anzeigen von Liste von Projekten die mit gegeben Suchkriterien übereinstimmen.
+
+3. Ergebnisse nach Kategoeri filtern.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Als Student möchte ich mich auf ein Projekt bewerben können, damit ich die Möglichkeit erhalte, daran teilzunehmen.
+
+Akzeptanztests:
+
+1. Funktionierender "Berwerben" Button auf der Seite.
+
+2. Student erhält eine Bestätigungsemail bzw. Eingangsemail.

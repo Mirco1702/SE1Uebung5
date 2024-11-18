@@ -1,0 +1,29 @@
+
+
+Name des Use Cases:	Bewerbung auf eine Projektausschreibung
+-----------------------------------------------------------------------------------------------------------------------------------------
+Teilnehmende Akteure:	Primär: Student, Sekundär: Coll@HBRS
+-----------------------------------------------------------------------------------------------------------------------------------------
+Ereignisfluss:	1. Student navigiert zu Projektübersicht
+		2. Student wählt passende Suchkriterien aus und lässt sich die Projekte anzeigen
+		3. Student wählt eine Projektausschreibung aus der Liste aus
+		4. Student lässt sich Detailansicht bzw. Inhaltsangaben vom Projekt anzeigen
+		5. Student klickt auf Schaltfläche "Berwerben"
+		6. Formular für Bewerbung wird angezeigt
+		7. Student gibt erforderlichen Daten ein und drückt auf den Button "Senden"
+		8. System validiert die Daten
+		9. Bewerbung wird gespeichert 
+		10. Bestätigungsmeldung wird angezigt
+		11. Bestätigungsemail wird an Studenten geschickt
+
+Alternativer Ereignisfluss: 7a. Student gibt fehlerhafte Stammdaten (ungültiges Geburtsdatum) ein.
+			    7b. Das System erkennt die fehlerhaften Daten und zeigt eine Fehlermeldung: „Ungültiges Geburtsdatum!!!“
+			    7c. Der Student korrigiert die Daten und sendet die Bewerbung erneut (zurück zu Schritt 8).  	 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Vorbedingung:	1. Student ist in SIS und auch in Coll@HBRS registriert und eingeloggt
+		2. Es gibt eine Projektausschreibung
+-----------------------------------------------------------------------------------------------------------------------------------------
+Nachbedingung:	1. Bewerbung wird mit Profil des Studenten und der Projektausschreibung verknüpft
+		2. Unternehmer der Projektausschreibung wird informiert das eine Bewerbung vorliegt
+-----------------------------------------------------------------------------------------------------------------------------------------
